@@ -138,13 +138,13 @@ canvas = Canvas(janela, width=450, height=450, bg='black')
 canvas.pack()
 
 
-default = Image.open("imgs/default.png")
+default = Image.open("jogo_da_velha-main/imgs/default.png")
 default_tk = ImageTk.PhotoImage(default)
 
-circle = Image.open("imgs/circle.png")
+circle = Image.open("jogo_da_velha-main/imgs/circle.png")
 circle_tk = ImageTk.PhotoImage(circle)
 
-x = Image.open("imgs/x.png")
+x = Image.open("jogo_da_velha-main/imgs/x.png")
 x_tk = ImageTk.PhotoImage(x)
 
 
